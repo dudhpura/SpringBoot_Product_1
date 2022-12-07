@@ -16,6 +16,7 @@ public class SpringBoot1Application extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBoot1Application.class, args);
+		System.out.println("Add some thing new!!...");
 	}
 
 	@Override
@@ -23,4 +24,5 @@ public class SpringBoot1Application extends SpringBootServletInitializer{
 		return builder.sources(SpringBoot1Application.class);
 		
 	}
+	
 }
